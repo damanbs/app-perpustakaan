@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Daftar Anggota')
+@section('title', 'Tambah Kategori')
 
 @section('content')
     <h1>Tambah Kategori</h1>
