@@ -1,3 +1,4 @@
+{{-- File: resources/views/categories/index.blade.php --}}
 @extends('layouts.app')
 
 @section('title', 'Daftar Kategori')
@@ -41,4 +42,5 @@
     </table>
 
     {{ $categories->links() }}
+    
 @endsection

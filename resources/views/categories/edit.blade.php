@@ -1,3 +1,4 @@
+{{-- File: resources/views/categories/edit.blade.php --}}
 <!DOCTYPE html>
 <html lang="id">
 <head>
