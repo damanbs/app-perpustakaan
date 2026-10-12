@@ -1,3 +1,4 @@
+// File: app/Http/Requests/StoreCategoryRequest.php
 <?php
 
 namespace App\Http\Requests;

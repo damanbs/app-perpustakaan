@@ -1,3 +1,4 @@
+{{-- File: resources/views/loans/index.blade.php --}}
 @extends('layouts.app')
 
 @section('title', 'Daftar Peminjaman')

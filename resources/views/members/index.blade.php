@@ -1,3 +1,4 @@
+{{-- File: resources/views/members/index.blade.php --}}
 @extends('layouts.app')
 
 @section('title', 'Daftar Anggota')

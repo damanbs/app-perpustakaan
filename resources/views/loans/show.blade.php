@@ -1,3 +1,4 @@
+{{-- File: resources/views/loans/show.blade.php --}}
 <!DOCTYPE html>
 <html lang="id">
 <head>
