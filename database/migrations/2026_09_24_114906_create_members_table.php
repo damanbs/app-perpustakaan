@@ -11,16 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('members', function (Blueprint $table) {
-            $table->id();
-            $table->string('nama', 100);
-            $table->string('nim', 20)->unique();
-            $table->string('email', 100)->unique();
-            $table->string('nomor_telepon', 15);
-            $table->text('alamat');
-            $table->enum('status', ['aktif', 'nonaktif'])->default('aktif');
-            $table->timestamps();
-        });
+        if (!Schema::hasTable('members')) {
+            Schema::create('members', function (Blueprint $table) {
+                $table->id();
+                $table->string('nama', 100);
+                $table->string('nim', 20)->unique();
+                $table->string('email', 100)->unique();
+                $table->string('nomor_telepon', 15);
+                $table->text('alamat');
+                $table->enum('status', ['aktif', 'nonaktif'])->default('aktif');
+                $table->timestamps();
+            });
+        }
     }
 
     /**
