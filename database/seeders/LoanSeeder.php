@@ -37,3 +37,4 @@ class LoanSeeder extends Seeder
         }
     }
 }
+

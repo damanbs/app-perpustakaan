@@ -141,3 +141,4 @@ Buka Postman dan jalankan collection `app-perpustakaan`:
 | **Admin** | `admin@pens.ac.id` | `password` | Nama: Bambang Sutrisno (Akses Menu Kategori) |
 | **Petugas** | `petugas1@pens.ac.id` | `password` | Nama: Siti Rahmawati |
 | **Petugas** | `petugas2@pens.ac.id` | `password` | Nama: Ahmad Fauzi |
+

@@ -12,3 +12,4 @@ class BookSeeder extends Seeder
         Book::factory()->count(20)->create();
     }
 }
+

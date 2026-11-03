@@ -12,3 +12,4 @@ class MemberSeeder extends Seeder
         Member::factory()->count(15)->create();
     }
 }
+
